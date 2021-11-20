@@ -8,6 +8,7 @@
   --white: rgba(255,255,255, 0.9);
   --footer-violet: #4B35B0;
   --nav-link-hover: #555;
+  --shadow: rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -18,16 +19,9 @@
 
 /* CSS rules to specify families
 font-family: 'Catamaran', sans-serif; */
-body {
-    background-color: var(--white);
-    color: var(--black);
-    font-family: 'Catamaran', sans-serif;
-    line-height: 1.6;
-    font-size: 1.1rem;
-}
-
 h1, h2, h3, h4 {
     line-height: 1.3;
+    /* font-family: 'Rubik', sans-serif; */
 }
 
 a {
@@ -42,53 +36,63 @@ ul {
 img {
     width: 100%;
 }
+
+img.l-page-icons {
+  width: 82px;
+}
+
+img.profile-picture {
+  width: 222px;
+}
 /* ↑↑↑↑↑ ===== End general styles. ===== ↑↑↑↑↑ */
 
-.App {
+.landing-page {
   max-width: 1100px;
   margin: auto;
   /* overflow: hidden; */
   padding: 0 2rem;
 }
 
-/* ↓↓↓↓↓ ===== Navbar Start ===== ↓↓↓↓↓*/
-.navbar {
-    font-size: 1.2rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓*/
+/* button */
+div.landing-page > button.project-button {
+  display: inline-block;
+  padding: 0.4em 2.5em;
+  margin: 0.7em auto;
+  border: none;
+  border-radius: 500px;
+  background-color: var(--blue);
+  color: var(--white);
+  box-shadow: 0px 4px 4px var(--shadow);
+  transition-duration: 0.4s;
 }
 
-nav.navbar > div.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+div.landing-page > button.project-button:hover {
+  border: 2px solid var(--blue);
+  background-color: var(--white);
+  color: var(--blue);
+  box-shadow: none;
 }
 
-/* Mandala image in navbar */
-div.App > nav.navbar > div.container > img {
-  width: 15%;
+@media all and (max-width:30em) {
+  div.landing-page > button.project-button {
+    display:block;
+    margin: 0.4em auto;
+  }
 }
+/* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */
 
-/* Title */
-nav.navbar > div.container > h1.title {
-    font-size: 2rem;
-    color: var(--blue);
-}
+/* ↓↓↓↓↓ ===== Challenge Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Challenge Section ===== ↑↑↑↑↑ */
 
-nav.navbar > div.container > ul.nav {
-    color: var(--blue);
-    justify-self: flex-end;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */
 
-nav.navbar > div.container > ul.nav > li > a {
-    padding: 0 1rem;
-}
+/* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Tech Section ===== ↑↑↑↑↑ */
 
-nav.navbar > div.container > ul.nav > li > a:hover {
-    color: var(--nav-link-hover);
-}
-/* ↑↑↑↑↑ ===== Navbar end ===== ↑↑↑↑↑ */
+/* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Team Section ===== ↑↑↑↑↑ */
 
-/* ↓↓↓↓↓ ===== Unwind With Color ===== ↓↓↓↓↓*/
+/* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */
