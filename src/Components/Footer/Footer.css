@@ -1,0 +1,25 @@
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    background:  rgb(76, 53, 176);
+
+;
+}
+
+.footer-title {
+      font-family: 'Rubik', sans-serif;
+      font-size: 18px;
+      color: #FFFFFF;
+      font-weight: 300;
+}
+
+ .footer-div span {
+    font-family: 'Urbanist', sans-serif;
+    size: 15px;
+    color: #FFFFFF;
+    font-weight: 350;
+}
