@@ -53,7 +53,7 @@ img.profile-picture {
   padding: 0 2rem;
 }
 
-/* ↓↓↓↓↓ ===== Unwind With Color ===== ↓↓↓↓↓*/
+/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓*/
 /* button */
 div.landing-page > button.project-button {
   display: inline-block;
@@ -80,3 +80,19 @@ div.landing-page > button.project-button:hover {
     margin: 0.4em auto;
   }
 }
+/* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ ===== Challenge Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Challenge Section ===== ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Tech Section ===== ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Team Section ===== ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */
+/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ 

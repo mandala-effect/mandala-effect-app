@@ -95,7 +95,7 @@ function LandingPage() {
 
         {/* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */}
         <h1>The Result</h1>
-        {/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑  */}
+        {/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */}
       </div>
       {/* ===== Footer goes here. ===== */}
     </>
