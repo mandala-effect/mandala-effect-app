@@ -5,24 +5,34 @@ import './LandingPage.css';
 function LandingPage() {
   return (
     <>
+      {/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */}
       <LandingNav />
       <div className="landing-page">
         <h1>Unwind With Color</h1>
         <h2>A Digital Drawing Experience</h2>
         <button className="project-button">Go To Project</button>
         <img src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
+      {/* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */}
 
+        {/* ↓↓↓↓↓ ===== Challenge Section ===== ↓↓↓↓↓ */}
         <h1>The Challenge</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi voluptas cum eum doloremque distinctio, non quia eaque cupiditate itaque incidunt soluta repellendus quod perferendis mollitia error tempora dignissimos. Cum.</p>
+        {/* ↑↑↑↑↑ ===== End Challenge Section ===== ↑↑↑↑↑ */}
 
+        <br/>
+
+        {/* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */}
         <h1>The Process</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorem, maxime ipsam quas, alias labore, nulla eius quibusdam ratione voluptas, ab voluptatibus suscipit? Id, ipsa amet. Fugiat facere, similique commodi.</p>
 
         <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
         <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
+        {/* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */}
 
+
+        {/* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */}
         <h1>The Technologies</h1>
 
         <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
@@ -32,10 +42,14 @@ function LandingPage() {
         <img className="l-page-icons" src="/img/css-icon.svg" alt="CSS"/>
         <img className="l-page-icons" src="/img/material-ui-logo.svg" alt="MUI"/>
         <h2>Styling</h2>
+        {/* ↑↑↑↑↑ ===== End Tech Section ===== ↑↑↑↑↑ */}
 
+
+        {/* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */}
         <h1>The Team</h1>
 
-        <img src="/img/katherine-gomez.png" alt="Katherine Gomez"/>
+        {/* Katherine */}
+        <img className="profile-picture" src="/img/katherine-gomez.png" alt="Katherine Gomez"/>
         <h2>Katherine Gomez</h2>
         <h3>UX Designer</h3>
         <p>
@@ -47,7 +61,8 @@ function LandingPage() {
         <img className="l-page-icons" src="/img/linkedin-logo.svg" alt="LinkedIn"/>
         <img className="l-page-icons" src="/img/wordpress-icon.svg" alt="WordPress"/>
 
-        <img src="/img/jessalynn-moncada.png" alt="Jessalynn Moncada"/>
+        {/* Jessalynn */}
+        <img className="profile-picture" src="/img/jessalynn-moncada.png" alt="Jessalynn Moncada"/>
         <h2>Jessalynn Moncada</h2>
         <h3>Software Engineer</h3>
         <p>
@@ -62,7 +77,8 @@ function LandingPage() {
         <img className="l-page-icons" src="/img/linkedin-logo.svg" alt="LinkedIn"/>
         <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
 
-        <img src="/img/jason-hargrove.png" alt="Jason Hargrove"/>
+        {/* Jason */}
+        <img className="profile-picture" src="/img/jason-hargrove.png" alt="Jason Hargrove"/>
         <h2>Jason Hargrove</h2>
         <h3>Software Engineer</h3>
         <p>
@@ -74,8 +90,12 @@ function LandingPage() {
         </p>
         <img className="l-page-icons" src="/img/linkedin-logo.svg" alt="LinkedIn"/>
         <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
+        {/* ↑↑↑↑↑ ===== End Team Section ===== ↑↑↑↑↑ */}
 
+
+        {/* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */}
         <h1>The Result</h1>
+        {/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑  */}
       </div>
       {/* ===== Footer goes here. ===== */}
     </>

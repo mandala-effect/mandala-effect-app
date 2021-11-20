@@ -37,8 +37,12 @@ img {
     width: 100%;
 }
 
-.landing-page .l-page-icons {
+img.l-page-icons {
   width: 82px;
+}
+
+img.profile-picture {
+  width: 222px;
 }
 /* ↑↑↑↑↑ ===== End general styles. ===== ↑↑↑↑↑ */
 
