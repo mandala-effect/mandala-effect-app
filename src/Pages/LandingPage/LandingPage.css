@@ -1,0 +1,15 @@
+.title {
+  font-size: 6rem;
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+img {
+    width: 500px;
+    margin: 0;
+}

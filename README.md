@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Mandela Effect
+A Full-stack app that lets people express their creativity in a visual format. Created for Mitbean's hackathon titled "Pain App - Becoming Bob Ross"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Who Are We?
 
-## Available Scripts
+![https://www.katherinevgomez.com](https://media-exp1.licdn.com/dms/image/C5603AQEtzmhSSjWllw/profile-displayphoto-shrink_200_200/0/1607738092676?e=1642636800&v=beta&t=6u7yAa3fA5xgUSGSS_d1Qja5qqoIfJQGSmjsXx5EeiE)
 
-In the project directory, you can run:
+Katherine V Gomez is a UX Designer specializing in Visual Design, synthesizing data and accelerating business workflows. I’m a natural problem-solver with a keen eye for detail, project management, and group facilitation.
 
-### `npm start`
+With a background in 3D, I seek to use my creativity to make future forward, user focused empathetic experiences aligned with business goals.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![https://www.linkedin.com/in/jessalynnmoncada/](https://media-exp1.licdn.com/dms/image/C4E03AQFmYh3Bq6cdrA/profile-displayphoto-shrink_200_200/0/1631508736686?e=1642636800&v=beta&t=8wiFmu5bRP2pYwRqSsfyEHicH0gTWABLsQiCu_K0LUI)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Jessalynn Moncada is a loving friend, proud daughter and inspired woman in tech!
 
-### `npm test`
+Co-Founder/Host of a podcast where three minorities come together to voice their experiences in the tech industry.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+More exclusively, a Full Stack Software Engineer experienced in Node.js, React.js and database concepts such as MongoDB/PosgreSQL, with a passion for digital design and incorporating that into my frontends. I genuinely enjoy a great challenge in projects - getting outside my comfort zone and learning something new is always the goal.
 
-### `npm run build`
+![https://jason-hargrove-portfolio.herokuapp.com/](https://media-exp1.licdn.com/dms/image/D5635AQHx__Ls0txhGQ/profile-framedphoto-shrink_200_200/0/1626440989394?e=1637348400&v=beta&t=4PeQL_zdvihHquIYJw31tSg9cR9I0niEiqUiB7UggIE)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Jason Hargrove is a Software Engineer with a background in fine art and graphic design, able to tackle hidden problems by finding connections between seemingly unrelated things.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Passionate about helping clients overcome barriers to technology with well designed, user friendly, unique products.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Approach each project as a street artist and developer by communicating graphically to provoke positive reactions. Transform thoughts into action to generate tangible and creative results.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Links to project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[__Figma__](https://www.figma.com/file/4f3Shhq1Sgypp3CqLYvY13/Drawing-App)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[__Heroku__](https://www.figma.com/file/4f3Shhq1Sgypp3CqLYvY13/Drawing-App)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Steps
 
-## Learn More
+**Install Gulp Globally**
+```bash
+npm i -g gulp-cli
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Start the dev server**
+```bash
+npm run dev
+```
+### or
+```bash
+yarn dev
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Start the dev server with proxy**
+```bash
+npm run proxy
+```
 
-### Code Splitting
+**Build files for production**
+```bash
+yarn build
+```
+### or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Deploy for production script**
+```bash
+npm start
+```
+### or
+```bash
+yarn start
+```

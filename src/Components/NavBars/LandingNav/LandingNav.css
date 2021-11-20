@@ -1,0 +1,46 @@
+
+.navLogo {
+    width: 100px;
+    height: 100px;
+}
+
+.navTitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px !important;
+    color: #4383FF !important;
+    display: flex;
+    flex: 2;
+    align-items: center;
+}
+
+.navLink {
+    font-family: 'Urban', sans-serif;
+    font-weight: 400 !important;
+    color: #4383FF !important;
+    font-size: 18px;
+    margin-top: 10px;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    flex-wrap: nowrap !important; /* assumes you only want one row */
+}
+
+.navbar-expand .navbar-nav .nav-link {
+ display: flex;
+flex-direction: row !important;
+justify-content: space-around;
+padding-right: 2rem !important;
+padding-left: 1.5rem;
+}
+
+.navLink:hover {
+    font-weight: 800 !important;
+}
+
+.dark-btn {
+    width: 55px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: #972CD4;
+    box-shadow: 0px 4px 15px 0px #00000040;
+    align-content:center;
+}
