@@ -8,6 +8,7 @@
   --white: rgba(255,255,255, 0.9);
   --footer-violet: #4B35B0;
   --nav-link-hover: #555;
+  --shadow: rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -37,16 +38,37 @@ img {
 }
 /* ↑↑↑↑↑ ===== End general styles. ===== ↑↑↑↑↑ */
 
-.App {
+.landing-page {
   max-width: 1100px;
   margin: auto;
   /* overflow: hidden; */
   padding: 0 2rem;
 }
 
-
-/* Title */
-
-/* ↑↑↑↑↑ ===== Navbar end ===== ↑↑↑↑↑ */
-
 /* ↓↓↓↓↓ ===== Unwind With Color ===== ↓↓↓↓↓*/
+/* button */
+div.landing-page > button.project-button {
+  display: inline-block;
+  padding: 0.4em 2.5em;
+  margin: 0.7em auto;
+  border: none;
+  border-radius: 500px;
+  background-color: var(--blue);
+  color: var(--white);
+  box-shadow: 0px 4px 4px var(--shadow);
+  transition-duration: 0.4s;
+}
+
+div.landing-page > button.project-button:hover {
+  border: 2px solid var(--blue);
+  background-color: var(--white);
+  color: var(--blue);
+  box-shadow: none;
+}
+
+@media all and (max-width:30em) {
+  div.landing-page > button.project-button {
+    display:block;
+    margin: 0.4em auto;
+  }
+}

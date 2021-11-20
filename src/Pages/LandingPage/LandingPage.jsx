@@ -9,7 +9,7 @@ function LandingPage() {
       <div className="landing-page">
         <h1>Unwind With Color</h1>
         <h2>A Digital Drawing Experience</h2>
-        <button>Go To Project</button>
+        <button className="project-button">Go To Project</button>
         <img src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
 
         <h1>The Challenge</h1>
