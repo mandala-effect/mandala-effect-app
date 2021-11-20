@@ -1,0 +1,10 @@
+.paint-container {
+    width: 800px;
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 15px 0px #00000066;
+    border: grey 0.15vmin solid;
+}
