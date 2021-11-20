@@ -36,6 +36,10 @@ ul {
 img {
     width: 100%;
 }
+
+.landing-page .l-page-icons {
+  width: 82px;
+}
 /* ↑↑↑↑↑ ===== End general styles. ===== ↑↑↑↑↑ */
 
 .landing-page {
