@@ -32,6 +32,14 @@ h1.purple {
   color: var(--purple);
 }
 
+h1.blue {
+  color: var(--blue);
+}
+
+h1.green {
+  color: var(--green);
+}
+
 a {
     text-decoration: none;
 }
@@ -58,6 +66,7 @@ img.profile-picture {
 .landing-page {
   max-width: 1100px;
   margin: auto;
+  font-family: 'Rubik', sans-serif;
   /* overflow: hidden; */
   padding: 0 2rem;
 }

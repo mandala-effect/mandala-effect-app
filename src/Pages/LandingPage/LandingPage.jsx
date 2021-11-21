@@ -14,6 +14,7 @@ function LandingPage() {
         <img src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
       {/* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */}
 
+
         {/* ↓↓↓↓↓ ===== Challenge Section ===== ↓↓↓↓↓ */}
         <h1 className="purple">The Challenge</h1>
 
@@ -23,7 +24,7 @@ function LandingPage() {
         <br/>
 
         {/* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */}
-        <h1>The Process</h1>
+        <h1 className="blue">The Process</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorem, maxime ipsam quas, alias labore, nulla eius quibusdam ratione voluptas, ab voluptatibus suscipit? Id, ipsa amet. Fugiat facere, similique commodi.</p>
 
@@ -33,7 +34,7 @@ function LandingPage() {
 
 
         {/* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */}
-        <h1>The Technologies</h1>
+        <h1 className="green">The Technologies</h1>
 
         <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
         <img className="l-page-icons" src="/img/bootstrap-icon.svg" alt="Bootstrap"/>
