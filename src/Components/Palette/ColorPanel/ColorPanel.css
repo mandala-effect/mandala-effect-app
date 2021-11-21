@@ -1,0 +1,66 @@
+
+
+.colors-wrapper {
+    position: relative;
+    top: 0;
+    background-color: black;
+    color: white;
+    border-radius: 0px 0px 0px;
+    min-height: 300px;
+    max-height: 300px;
+    max-width: 110px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 55px 55px;
+    grid-row: auto auto;
+}
+
+ /* color key for the painting palette */
+#royal {
+    background-color: #1358FB;
+}
+#cloud {
+    background-color: #DEDEDE;
+}
+#forrest {
+    background-color: #01A451;
+}
+#lime {
+    background-color: #97E41A;
+}
+#sunny {
+    background-color: #FEF102;
+}
+#carrot {
+    background-color: #F37A21;
+}
+#scarlett {
+    background-color: #D1161D;
+}
+#crimson {
+    background-color: #8C172A;
+}
+#plum {
+    background-color: #AB2467;
+}
+#watermelon {
+    background-color: #EE5BA1;
+}
+#violet {
+    background-color: #9A27D2;
+}
+#caramel {
+    background-color: #7C4E34;
+}
+#midnight {
+    background-color: #000000;
+}
+#charcoal {
+    background-color: #535353;
+}
+#pearl {
+    background-color: #FFFFFF;
+}
+#smoke {
+    background-color: #C2C2C2;
+}

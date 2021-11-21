@@ -2,16 +2,16 @@
 
 .paint-container {
     margin: 0 auto;
-    max-width: 700px;
-    height: 500px;
+    max-width: 750px;
+    height: 470px;
     border-radius: 40px;
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 15px 0px #00000066;
+    box-shadow: 0px 4px 15px 0px #536adeb5;
     border: grey 0.15vmin solid;
 }
 
 .PaintBox {
-    padding: 10px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width: 500px) {
