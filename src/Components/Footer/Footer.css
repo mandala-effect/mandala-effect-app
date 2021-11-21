@@ -1,10 +1,10 @@
 footer {
     position: absolute;
     left: 0;
-    top: bottom;
-    height: auto;
+    bottom: top;
+    height: 200px;
     width: 100%;
-    padding: 10px;
+    padding-top: 25px;
     background:  rgb(76, 53, 176);
     text-align: center !important;
 }
