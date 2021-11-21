@@ -40,6 +40,14 @@ h1.green {
   color: var(--green);
 }
 
+h1.orange {
+  color: var(--orange);
+}
+
+h1.red {
+  color: var(--red);
+}
+
 a {
     text-decoration: none;
 }

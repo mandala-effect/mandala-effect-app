@@ -47,7 +47,7 @@ function LandingPage() {
 
 
         {/* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */}
-        <h1>The Team</h1>
+        <h1 className="orange">The Team</h1>
 
         {/* Katherine */}
         <img className="profile-picture" src="/img/katherine-gomez.png" alt="Katherine Gomez"/>
@@ -95,7 +95,7 @@ function LandingPage() {
 
 
         {/* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */}
-        <h1>The Result</h1>
+        <h1 className="red">The Result</h1>
         {/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */}
       </div>
       {/* ===== Footer goes here. ===== */}
