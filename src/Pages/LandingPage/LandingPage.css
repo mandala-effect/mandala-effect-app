@@ -1,7 +1,7 @@
 /* ↓↓↓↓↓ ===== CSS Custom Properties ===== ↓↓↓↓↓ */
 :root {
   --blue: #4383FF;
-  --purple: #9A27D2;
+  --purple: rgba(143, 40, 200, 1);
   --green: #10C03B;
   --orange: #FFA101;
   --red: #FF0401;
@@ -32,19 +32,23 @@ h1.purple {
   color: var(--purple);
 }
 
-h1.blue {
+h3.purple {
+  color: var(--purple);
+}
+
+h3.blue {
   color: var(--blue);
 }
 
-h1.green {
+h3.green {
   color: var(--green);
 }
 
-h1.orange {
+h3.orange {
   color: var(--orange);
 }
 
-h1.red {
+h3.red {
   color: var(--red);
 }
 
@@ -60,12 +64,10 @@ img {
     width: 100%;
 }
 
+/* Icons */
 img.l-page-icons {
-  width: 82px;
-}
-
-img.profile-picture {
-  width: 222px;
+  width: 50px;
+  margin: 0 0.5em;
 }
 /* ↑↑↑↑↑ ===== End general styles. ===== ↑↑↑↑↑ */
 
@@ -73,22 +75,35 @@ img.profile-picture {
 /* ↓↓↓↓↓ ===== Main Container Section ===== ↓↓↓↓↓ */
 .landing-page {
   max-width: 1100px;
+  /* max-width: 100vw; */
   margin: auto;
   font-family: 'Rubik', sans-serif;
   /* overflow: hidden; */
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 /* ↑↑↑↑↑ ===== End Main Container Section ===== ↑↑↑↑↑ */
 
 
 /* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */
+/* Nav */
+div.landing-page > section.container-top > nav.container-top-nav {
+  /* background-color: rgba(100, 200, 100, 0.5); */
+  grid-area: nav;
+  z-index: 2;
+}
 
-
+/* ↓↓ == Main == ↓↓ */
+div.landing-page > section.container-top > article.container-top-heading {
+  /* background-color: rgba(100, 100, 200, 0.5); */
+  grid-area: main;
+  text-align: center;
+}
 
 /* button */
-div.landing-page > button.project-button {
+div.landing-page > section.container-top > article.container-top-heading > button.project-button {
   display: inline-block;
-  padding: 0.4em 2.5em;
+  font-family: 'Urbanist', sans-serif;
+  padding: 0.4em 1.2em;
   margin: 0.7em auto;
   border: none;
   border-radius: 500px;
@@ -98,18 +113,36 @@ div.landing-page > button.project-button {
   transition-duration: 0.4s;
 }
 
-div.landing-page > button.project-button:hover {
+div.landing-page > section.container-top > article.container-top-heading > button.project-button:hover {
   border: 2px solid var(--blue);
   background-color: var(--white);
   color: var(--blue);
   box-shadow: none;
 }
+/* ↑↑ == Main == ↑↑ */
 
-@media all and (max-width:30em) {
-  div.landing-page > button.project-button {
-    display:block;
-    margin: 0.4em auto;
-  }
+/* Image */
+div.landing-page > section.container-top > img.container-top-image {
+  width: 70vw;
+  max-width: 800px;
+  position: absolute;
+  right: 0;
+  top: 1em;
+  z-index: 1;
+  grid-area: img;
+}
+
+/* Container */
+div.landing-page > section.container-top {
+  /* background-color: rgba(200, 100, 100, 0.5); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.8fr 1fr 2.3fr;
+  grid-template-areas:
+    "nav nav"
+    "top img"
+    "main img"
+    "footer img";
 }
 /* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */
 
@@ -117,13 +150,33 @@ div.landing-page > button.project-button:hover {
 /* ↑↑↑↑↑ ===== End Challenge Section ===== ↑↑↑↑↑ */
 
 /* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */
+div.landing-page > figure.process-icons {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 /* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */
 
 /* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */
 /* ↑↑↑↑↑ ===== End Tech Section ===== ↑↑↑↑↑ */
 
 /* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */
+/* Images of team members */
+img.profile-picture {
+  width: 222px;
+}
 /* ↑↑↑↑↑ ===== End Team Section ===== ↑↑↑↑↑ */
 
 /* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */
 /* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */
+
+
+/* ↓↓↓↓↓ ===== Media Queries ===== ↓↓↓↓↓ */
+/* Button */
+@media all and (max-width:30em) {
+  div.landing-page > section.container-top > article.container-top-heading > button.project-button {
+    display:block;
+    margin: 0.4em auto;
+  }
+}
+/* ↑↑↑↑↑ ===== End Media Queries ===== ↑↑↑↑↑ */

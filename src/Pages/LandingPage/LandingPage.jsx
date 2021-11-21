@@ -18,14 +18,14 @@ function LandingPage() {
               Go To Project
             </button>
           </article>
-          <img className="contaner-top-image" src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
+          <img className="container-top-image" src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
         </section>
 
       {/* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */}
 
 
         {/* ↓↓↓↓↓ ===== Challenge Section ===== ↓↓↓↓↓ */}
-        <h1 className="purple">The Challenge</h1>
+        <h3 className="purple">The Challenge</h3>
 
         <p>
           <a href="https://mintbean.io/">Mintbean</a> Hiring Hackathon for Jr Web Devs. Paint App - Becoming Bob Ross.
@@ -41,32 +41,34 @@ function LandingPage() {
         <br/>
 
         {/* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */}
-        <h1 className="blue">The Process</h1>
+        <h3 className="blue">The Process</h3>
 
         <p>
           Planned project, and planned our limited time wisely. Got a clear idea of what were were building. Set up standup meetings on Zoom. Implemented JIRA. Aim low, climb high minimum viable product. UX created a loft wireframe. Engineers used Create React App and updated README. Midfi wireframe and created canvas color pallet. General app structure. Hifi wireframe and gather SVSs.  Nav bars. Adjusted app structure. Basic styling. Began working on the landing page by adding images and meta data.
         </p>
 
-        <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
-        <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
+        <figure className="process-icons">
+          <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
+          <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
+        </figure>
         {/* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */}
 
 
         {/* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */}
-        <h1 className="green">The Technologies</h1>
+        <h3 className="green">The Technologies</h3>
 
         <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
         <img className="l-page-icons" src="/img/bootstrap-icon.svg" alt="Bootstrap"/>
-        <h2>Front End</h2>
+        <h4>Front End</h4>
 
         <img className="l-page-icons" src="/img/css-icon.svg" alt="CSS"/>
         <img className="l-page-icons" src="/img/material-ui-logo.svg" alt="MUI"/>
-        <h2>Styling</h2>
+        <h4>Styling</h4>
         {/* ↑↑↑↑↑ ===== End Tech Section ===== ↑↑↑↑↑ */}
 
 
         {/* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */}
-        <h1 className="orange">The Team</h1>
+        <h3 className="orange">The Team</h3>
 
         {/* Katherine */}
         <img className="profile-picture" src="/img/katherine-gomez.png" alt="Katherine Gomez"/>
@@ -114,7 +116,7 @@ function LandingPage() {
 
 
         {/* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */}
-        <h1 className="red">The Result</h1>
+        <h3 className="red">The Result</h3>
         {/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */}
       </div>
       {/* ===== Footer goes here. ===== */}
