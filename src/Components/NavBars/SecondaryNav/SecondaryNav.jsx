@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import Logo from '../../../Images/Logo/Logo.png';
+import Logo from '../MandalaLogo/Logo.png';
 import '../LandingNav/LandingNav.css';
 import './SecondaryNav.css';
 
