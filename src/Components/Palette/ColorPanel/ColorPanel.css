@@ -3,12 +3,12 @@
 .colors-wrapper {
     position: relative;
     top: 0;
-    background-color: rgb(245, 248, 249);
+    background-color: black;
     color: white;
     border-radius: 0px 0px 0px;
     min-height: 300px;
     max-height: 300px;
-    max-width: 125px;
+    max-width: 110px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 55px 55px;
