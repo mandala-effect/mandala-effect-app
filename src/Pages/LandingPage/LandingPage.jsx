@@ -18,7 +18,15 @@ function LandingPage() {
         {/* ↓↓↓↓↓ ===== Challenge Section ===== ↓↓↓↓↓ */}
         <h1 className="purple">The Challenge</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi voluptas cum eum doloremque distinctio, non quia eaque cupiditate itaque incidunt soluta repellendus quod perferendis mollitia error tempora dignissimos. Cum.</p>
+        <p>
+          <a href="https://mintbean.io/">Mintbean</a> Hiring Hackathon for Jr Web Devs. Paint App - Becoming Bob Ross.
+          Computers have been a boon for creativity and imagination. Digital art has, for decades now, been a medium in its own right; and with the advent of NFTs, the future might be very bright indeed for digital artists. Today, we'll build an app that lets your friends and loved ones express their creative side.
+        </p>
+        <p>
+          Build an app that lets people express their creativity in a visual format. You can build ANY application you'd like. Whether it's a blank canvas that you can paint on, a photo-editing app, a shared white board -- as long as it fulfills one OR both of the following requirements:
+          * As a user, I can drag my mouse across the screen to make free-form lines.
+          * As a user, I can click areas of the screen with my mouse to fill them with a color, texture or pattern.
+        </p>
         {/* ↑↑↑↑↑ ===== End Challenge Section ===== ↑↑↑↑↑ */}
 
         <br/>
@@ -26,7 +34,9 @@ function LandingPage() {
         {/* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */}
         <h1 className="blue">The Process</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorem, maxime ipsam quas, alias labore, nulla eius quibusdam ratione voluptas, ab voluptatibus suscipit? Id, ipsa amet. Fugiat facere, similique commodi.</p>
+        <p>
+          Planned project, and planned our limited time wisely. Got a clear idea of what were were building. Set up standup meetings on Zoom. Implemented JIRA. Aim low, climb high minimum viable product. UX created a loft wireframe. Engineers used Create React App and updated README. Midfi wireframe and created canvas color pallet. General app structure. Hifi wireframe and gather SVSs.  Nav bars. Adjusted app structure. Basic styling. Began working on the landing page by adding images and meta data.
+        </p>
 
         <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
         <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
