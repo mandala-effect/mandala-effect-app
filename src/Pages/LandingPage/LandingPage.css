@@ -97,15 +97,31 @@ div.landing-page > section.container-top > article.container-top-heading {
   /* background-color: rgba(100, 100, 200, 0.5); */
   grid-area: main;
   text-align: center;
+  z-index: 2;
+}
+
+/* Text */
+h1.purple {
+  color: var(--purple);
+  font-size: 3.3em;
+  line-height: 0.8em;
+}
+
+div.landing-page > section.container-top > article.container-top-heading > h5 {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.9em;
+  padding-bottom: 0.8em;
+
 }
 
 /* button */
 div.landing-page > section.container-top > article.container-top-heading > button.project-button {
+  width: 7.7em;
+  height: 2.2em;
   display: inline-block;
   font-family: 'Urbanist', sans-serif;
-  padding: 0.4em 1.2em;
-  margin: 0.7em auto;
   border: none;
+  font-size: 1.5em;
   border-radius: 500px;
   background-color: var(--blue);
   color: var(--white);
@@ -137,7 +153,7 @@ div.landing-page > section.container-top {
   /* background-color: rgba(200, 100, 100, 0.5); */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 0.8fr 1fr 2.3fr;
+  grid-template-rows: 1fr 0.8fr 1fr 420px;
   grid-template-areas:
     "nav nav"
     "top img"
