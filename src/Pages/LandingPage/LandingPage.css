@@ -87,7 +87,6 @@ img.l-page-icons {
 /* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */
 /* Nav */
 div.landing-page > section.container-top > nav.container-top-nav {
-  /* background-color: rgba(100, 200, 100, 0.5); */
   grid-area: nav;
   z-index: 2;
 }
@@ -150,7 +149,6 @@ div.landing-page > section.container-top > img.container-top-image {
 
 /* Container */
 div.landing-page > section.container-top {
-  /* background-color: rgba(200, 100, 100, 0.5); */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 0.8fr 1fr 420px;
@@ -174,7 +172,35 @@ div.landing-page > figure.process-icons {
 /* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */
 
 /* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */
+/* Container */
+div.landing-page > section.container-tech {
+  /* background-color: rgba(200, 100, 100, 0.5); */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 8em;
+  margin: 2.5em 0.5em;
+}
+
+/* Front End */
+div.landing-page > section.container-tech > figure.container-tech-front {
+  /* background-color: rgba(100, 200, 100, 0.5); */
+}
+div.landing-page > section.container-tech > figure.container-tech-front > h5 {
+  text-align: center;
+  margin-top: 0.75em;
+}
+
+/* Styling */
+div.landing-page > section.container-tech > figure.container-tech-styling {
+  /* background-color: rgba(100, 200, 100, 0.5); */
+}
+div.landing-page > section.container-tech > figure.container-tech-styling > h5 {
+  text-align: center;
+  margin-top: 0.75em;
+}
 /* ↑↑↑↑↑ ===== End Tech Section ===== ↑↑↑↑↑ */
+
 
 /* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */
 /* Images of team members */

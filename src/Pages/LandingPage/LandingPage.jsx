@@ -57,13 +57,19 @@ function LandingPage() {
         {/* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */}
         <h3 className="green">The Technologies</h3>
 
-        <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
-        <img className="l-page-icons" src="/img/bootstrap-icon.svg" alt="Bootstrap"/>
-        <h4>Front End</h4>
+        <section className="container-tech">
+          <figure className="container-tech-front">
+            <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
+            <img className="l-page-icons" src="/img/bootstrap-icon.svg" alt="Bootstrap"/>
+            <h5>Front End</h5>
+          </figure>
 
-        <img className="l-page-icons" src="/img/css-icon.svg" alt="CSS"/>
-        <img className="l-page-icons" src="/img/material-ui-logo.svg" alt="MUI"/>
-        <h4>Styling</h4>
+          <figure className="container-tech-styling">
+            <img className="l-page-icons" src="/img/css-icon.svg" alt="CSS"/>
+            <img className="l-page-icons" src="/img/material-ui-logo.svg" alt="MUI"/>
+            <h5>Styling</h5>
+          </figure>
+        </section>
         {/* ↑↑↑↑↑ ===== End Tech Section ===== ↑↑↑↑↑ */}
 
 
