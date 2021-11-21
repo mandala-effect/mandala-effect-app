@@ -6,12 +6,21 @@ function LandingPage() {
   return (
     <>
       {/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */}
-      <LandingNav />
       <div className="landing-page">
-        <h1 className="purple">Unwind With Color</h1>
-        <h2>A Digital Drawing Experience</h2>
-        <button className="project-button">Go To Project</button>
-        <img src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
+        <section className="container-top">
+          <nav className="container-top-nav">
+          <LandingNav />
+          </nav>
+          <article className="container-top-heading">
+            <h1 className="purple">Unwind With Color</h1>
+            <h5>A Digital Drawing Experience</h5>
+            <button className="project-button">
+              Go To Project
+            </button>
+          </article>
+          <img className="contaner-top-image" src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
+        </section>
+
       {/* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */}
 
 
@@ -23,7 +32,7 @@ function LandingPage() {
           Computers have been a boon for creativity and imagination. Digital art has, for decades now, been a medium in its own right; and with the advent of NFTs, the future might be very bright indeed for digital artists. Today, we'll build an app that lets your friends and loved ones express their creative side.
         </p>
         <p>
-          Build an app that lets people express their creativity in a visual format. You can build ANY application you'd like. Whether it's a blank canvas that you can paint on, a photo-editing app, a shared white board -- as long as it fulfills one OR both of the following requirements:
+          We were taked to build an app that lets people express their creativity in a visual format. You can build ANY application you'd like. Whether it's a blank canvas that you can paint on, a photo-editing app, a shared white board -- as long as it fulfills one OR both of the following requirements:
           * As a user, I can drag my mouse across the screen to make free-form lines.
           * As a user, I can click areas of the screen with my mouse to fill them with a color, texture or pattern.
         </p>

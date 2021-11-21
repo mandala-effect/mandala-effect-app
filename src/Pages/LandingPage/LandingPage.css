@@ -24,7 +24,7 @@ font-family: 'Rubik', sans-serif; */
     padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     line-height: 1.3;
 }
 
@@ -82,6 +82,9 @@ img.profile-picture {
 
 
 /* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */
+
+
+
 /* button */
 div.landing-page > button.project-button {
   display: inline-block;
