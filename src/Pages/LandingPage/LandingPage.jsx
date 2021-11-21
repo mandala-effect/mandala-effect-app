@@ -8,14 +8,14 @@ function LandingPage() {
       {/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */}
       <LandingNav />
       <div className="landing-page">
-        <h1>Unwind With Color</h1>
+        <h1 className="purple">Unwind With Color</h1>
         <h2>A Digital Drawing Experience</h2>
         <button className="project-button">Go To Project</button>
         <img src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
       {/* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */}
 
         {/* ↓↓↓↓↓ ===== Challenge Section ===== ↓↓↓↓↓ */}
-        <h1>The Challenge</h1>
+        <h1 className="purple">The Challenge</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi voluptas cum eum doloremque distinctio, non quia eaque cupiditate itaque incidunt soluta repellendus quod perferendis mollitia error tempora dignissimos. Cum.</p>
         {/* ↑↑↑↑↑ ===== End Challenge Section ===== ↑↑↑↑↑ */}
