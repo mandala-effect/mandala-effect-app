@@ -1,5 +1,5 @@
 import React from 'react';
-import './Colors.css';
+import './ColorPanel.css';
 
 export default function ColorPanel() {
     return (

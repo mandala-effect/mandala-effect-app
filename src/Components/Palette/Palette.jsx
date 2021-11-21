@@ -1,10 +1,12 @@
 import React from 'react';
-import Colors from './Colors/ColorPanel';
+import Head from './Head/Head';
+import ColorPanel from './ColorPanel/ColorPanel';
 
 export default function Palette() {
     return (
         <div className="Palette">
-            <Colors />
+            <Head />
+            <ColorPanel />
         </div>
     )
 }
