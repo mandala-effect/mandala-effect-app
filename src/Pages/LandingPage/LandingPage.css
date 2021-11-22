@@ -232,18 +232,14 @@ div.landing-page section.container-team aside > h3 {
 /* Text */
 div.landing-page section.container-team aside.container-team-text {
   width: 14em;
+  padding-bottom: 0.5em;
 }
 
-/* Icons */
-div.landing-page section.container-team aside figure.container-team-icons {
-
-}
-
+/* Icons Container */
 div.landing-page section.container-team aside figure.container-team-icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* background-color: green; */
   margin-top: 0.75em;
 }
 
