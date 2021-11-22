@@ -8,7 +8,7 @@ export default function LandingNav() {
 
 
 return (
-		<Navbar bg="light" variant="light">
+		<Navbar bg="transparent" variant="transparent">
 			<Container>
 				<Navbar.Brand className="navTitle">
 				<img src={Logo} alt="Logo" className="navLogo"/>
