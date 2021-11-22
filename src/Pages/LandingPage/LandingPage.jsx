@@ -26,15 +26,11 @@ function LandingPage() {
 
         {/* ↓↓↓↓↓ ===== Challenge Section ===== ↓↓↓↓↓ */}
         <h3 className="purple">The Challenge</h3>
-
         <p>
-          <a href="https://mintbean.io/">Mintbean</a> Hiring Hackathon for Jr Web Devs. Paint App - Becoming Bob Ross.
-          Computers have been a boon for creativity and imagination. Digital art has, for decades now, been a medium in its own right; and with the advent of NFTs, the future might be very bright indeed for digital artists. Today, we'll build an app that lets your friends and loved ones express their creative side.
+           This project is our submission for   <a href="https://mintbean.io/">Mintbean</a>'s Hiring Hackathon for Jr Web Devs. The theme promt was "Paint App - Becoming Bob Ross". Computers have been a boon for creativity and imagination. Digital art has, for decades now, been a medium in its own right; and with the advent of NFTs, the future might be very bright indeed for digital artists.
         </p>
         <p>
-          We were taked to build an app that lets people express their creativity in a visual format. You can build ANY application you'd like. Whether it's a blank canvas that you can paint on, a photo-editing app, a shared white board -- as long as it fulfills one OR both of the following requirements:
-          * As a user, I can drag my mouse across the screen to make free-form lines.
-          * As a user, I can click areas of the screen with my mouse to fill them with a color, texture or pattern.
+          Our challenge was to build an app that lets people express their creativity in a visual format. We could build ANY application we'd like. Whether it was a blank canvas that you can paint on, a photo-editing app, a shared white board -- as long as it fulfilled one OR both of the following requirements: * As a user, I can drag my mouse across the screen to make free-form lines. * As a user, I can click areas of the screen with my mouse to fill them with a color, texture or pattern.
         </p>
         {/* ↑↑↑↑↑ ===== End Challenge Section ===== ↑↑↑↑↑ */}
 
@@ -44,12 +40,13 @@ function LandingPage() {
         <h3 className="blue">The Process</h3>
 
         <p>
-          Planned project, and planned our limited time wisely. Got a clear idea of what were were building. Set up standup meetings on Zoom. Implemented JIRA. Aim low, climb high minimum viable product. UX created a loft wireframe. Engineers used Create React App and updated README. Midfi wireframe and created canvas color pallet. General app structure. Hifi wireframe and gather SVSs.  Nav bars. Adjusted app structure. Basic styling. Began working on the landing page by adding images and meta data.
+          Planned project, and planned our limited time wisely. Got a clear idea of what were were building. Set up standup meetings on Zoom. Implemented JIRA. Aim low, climb high minimum viable product. UX created a LoFi Wireframe. Engineers used Create React App and updated README. MidFi wireframe and created canvas color palette. General app structure. HiFi Wireframe and gather SVSs.  Nav bars. Adjusted app structure. Basic styling. Began working on the landing page by adding images and meta data.
         </p>
 
         <figure className="process-icons">
           <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
           <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
+          <img className="l-page-icons" src="/img/figma-icon.png" alt="Figma"/>
         </figure>
         {/* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */}
 
@@ -87,7 +84,9 @@ function LandingPage() {
           With a background in 3D, I seek to use my creativity to make future forward, user focused empathetic experiences aligned with business goals.
         </p>
         <img className="l-page-icons" src="/img/linkedin-logo.svg" alt="LinkedIn"/>
-        <img className="l-page-icons" src="/img/wordpress-icon.svg" alt="WordPress"/>
+          <a href="https://katherinevgomez.com/">
+          <img className="l-page-icons" src="/img/wordpress-icon.svg" alt="WordPress"/>
+        </a>
 
         {/* Jessalynn */}
         <img className="profile-picture" src="/img/jessalynn-moncada.png" alt="Jessalynn Moncada"/>
