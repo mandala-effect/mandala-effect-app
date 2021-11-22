@@ -247,19 +247,21 @@ div.landing-page section.container-team aside figure.container-team-icons {
   margin-top: 0.75em;
 }
 
+/* Kat's icons - aligned on bottom */
 div.landing-page section.container-team aside.kat figure.container-team-icons {
-
   margin-top: 2.5em;
   padding: 0;
-
 }
 /* ↑↑↑↑↑ ===== End Team Section ===== ↑↑↑↑↑ */
 
 
 
 /* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */
-/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */
 
+/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */
+div.landing-page > h3.red {
+  margin-top: 2.5em;
+}
 
 /* ↓↓↓↓↓ ===== Media Queries ===== ↓↓↓↓↓ */
 /* Button */
