@@ -46,7 +46,9 @@ function LandingPage() {
         <figure className="process-icons">
           <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
           <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
-          <img className="l-page-icons" src="/img/figma-icon.png" alt="Figma"/>
+          <a href="https://www.figma.com/file/4f3Shhq1Sgypp3CqLYvY13/Drawing-App">
+            <img className="l-page-icons" src="/img/figma-icon.png" alt="Figma"/>
+          </a>
         </figure>
         {/* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */}
 
