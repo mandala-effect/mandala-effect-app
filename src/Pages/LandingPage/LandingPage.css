@@ -258,6 +258,7 @@ div.landing-page > h3.red {
   margin-top: 2.5em;
 }
 
+
 /* ↓↓↓↓↓ ===== Media Queries ===== ↓↓↓↓↓ */
 /* Button */
 @media all and (max-width:30em) {
@@ -322,6 +323,7 @@ div.landing-page > h3.red {
   div.landing-page > section.container-top > article.container-top-heading {
     margin-right: 15em;
   }
+
   /* Heading */
   h1.purple {
     font-size: 2.3em;
@@ -383,29 +385,29 @@ div.landing-page > h3.red {
     gap: 2em;
     margin-top: 2em;
   }
-}
 
-/* Images of team members */
-div.landing-page section.container-team aside > img.profile-picture {
-  width: 100%;
-}
+  /* Images of team members */
+    div.landing-page section.container-team aside > img.profile-picture {
+      width: 100%;
+  }
 
-/* Name */
-div.landing-page section.container-team aside > h2 {
-  font-size: 2.1em;
-  padding-top: 0.4em;
-  padding-bottom: 0.2em;
-}
+  /* Name */
+  div.landing-page section.container-team aside > h2 {
+    font-size: 2.1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
+  }
 
-/* Title */
-div.landing-page section.container-team aside > h3 {
-  font-size: 1.4em;
-  margin-bottom: 1.3em;
-}
+  /* Title */
+  div.landing-page section.container-team aside > h3 {
+    font-size: 1.4em;
+    margin-bottom: 1.3em;
+  }
 
-/* Text */
-div.landing-page section.container-team aside.container-team-text {
-  width: 100%;
-  padding-bottom: 0.5em;
+  /* Text */
+  div.landing-page section.container-team aside.container-team-text {
+    width: 100%;
+    padding-bottom: 0.5em;
+  }
 }
 /* ↑↑↑↑↑ ===== End Media Queries ===== ↑↑↑↑↑ */
