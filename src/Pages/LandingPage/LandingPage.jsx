@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LandingNav from '../../Components/NavBars/LandingNav/LandingNav';
 import './LandingPage.css';
 
 function LandingPage() {
+
+
   return (
     <>
       {/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */}
@@ -14,9 +17,11 @@ function LandingPage() {
           <article className="container-top-heading">
             <h1 className="purple">Unwind With Color</h1>
             <h5>A Digital Drawing Experience</h5>
-            <button className="project-button">
-              Go To Project
-            </button>
+            <Link to={'/color'}>
+              <button className="project-button">
+                Go To Project
+              </button>
+            </Link>
           </article>
           <img className="container-top-image" src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
         </section>
@@ -44,8 +49,12 @@ function LandingPage() {
         </p>
 
         <figure className="process-icons">
-          <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
-          <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
+          <a href="https://github.com/mandala-effect/mandala-effect-app.git">
+            <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
+          </a>
+          <a href="https://codesandbox.io/">
+            <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
+          </a>
           <a href="https://www.figma.com/file/4f3Shhq1Sgypp3CqLYvY13/Drawing-App">
             <img className="l-page-icons" src="/img/figma-icon.png" alt="Figma"/>
           </a>
@@ -58,14 +67,22 @@ function LandingPage() {
 
         <section className="container-tech">
           <figure className="container-tech-front">
-            <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
-            <img className="l-page-icons" src="/img/bootstrap-icon.svg" alt="Bootstrap"/>
+            <a href="https://reactjs.org/">
+              <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
+            </a>
+            <a href="https://getbootstrap.com/">
+              <img className="l-page-icons" src="/img/bootstrap-icon.svg" alt="Bootstrap"/>
+            </a>
             <h5>Front End</h5>
           </figure>
 
           <figure className="container-tech-styling">
-            <img className="l-page-icons" src="/img/css-icon.svg" alt="CSS"/>
-            <img className="l-page-icons" src="/img/material-ui-logo.svg" alt="MUI"/>
+            <a href="https://www.w3.org/Style/CSS/">
+              <img className="l-page-icons" src="/img/css-icon.svg" alt="CSS"/>
+            </a>
+            <a href="https://mui.com/">
+              <img className="l-page-icons" src="/img/material-ui-logo.svg" alt="MUI"/>
+            </a>
             <h5>Styling</h5>
           </figure>
         </section>
