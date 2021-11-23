@@ -48,3 +48,29 @@ text-decoration: none;
 a {
     text-decoration: none !important;
 }
+
+@media screen and (max-width: 1072px){
+  /* Logo */
+  .navLogo {
+      margin-left: -32px;
+      margin-right: 5px;
+      width: 50px;
+      height: 50px;
+  }
+  /* Title */
+  .navTitle {
+      font-size: 15px !important;
+      margin-right: 4.5em !important;
+  }
+  /* Nav Links */
+  .navLink {
+      font-size: 13px;
+      margin-top: 9px;
+  }
+
+  /* Dark Mode Button */
+  .dark-btn {
+      width: 45px;
+      height: 38px;
+  }
+}

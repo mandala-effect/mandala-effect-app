@@ -75,11 +75,11 @@ img.l-page-icons {
 /* ↓↓↓↓↓ ===== Main Container Section ===== ↓↓↓↓↓ */
 .landing-page {
   max-width: 1100px;
-  /* max-width: 100vw; */
   margin: auto;
   font-family: 'Rubik', sans-serif;
-  /* overflow: hidden; */
   padding: 0 4rem;
+  /* For Smooth @media */
+  transition: left 0.5s;
 }
 /* ↑↑↑↑↑ ===== End Main Container Section ===== ↑↑↑↑↑ */
 
@@ -143,7 +143,6 @@ div.landing-page > section.container-top > img.container-top-image {
   position: absolute;
   right: 0;
   top: 1em;
-  z-index: 1;
   grid-area: img;
 }
 
@@ -199,7 +198,6 @@ div.landing-page > section.container-tech > figure.container-tech-styling > h5 {
 /* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */
 /* Container */
 div.landing-page > section.container-team {
-  /* background-color: rgba(200, 100, 100, 0.5); */
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -222,6 +220,7 @@ div.landing-page section.container-team aside > h2 {
   line-height: 1em;
   padding-top: 0.5em;
 }
+
 /* Title */
 div.landing-page section.container-team aside > h3 {
   text-align: center;
@@ -294,19 +293,119 @@ div.landing-page > h3.red {
 
   /* Container */
   div.landing-page > section.container-top {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.6fr 1fr 200px;
-    grid-template-areas:
-      "nav nav"
-      "top img"
-      "main img"
-      "footer img";
+    grid-template-rows: 1fr 1.2fr 1fr 270px;
   }
 
   /* Team Section*/
   div.landing-page > section.container-team {
     gap: 5em;
   }
+}
+
+
+/* ========== MEDIA QUERY iPhone 6/7/8 Plus ========== */
+@media screen and (max-width: 414px) {
+  /* ↓↓↓↓↓ ===== Genearl Styles ===== ↓↓↓↓↓ */
+  h1, h2, h3, h4, h5 {
+      text-align: center;
+  }
+
+  /* ===== Main Container ===== */
+  .landing-page {
+    padding: 0 2rem;
+  }
+
+
+  /* ===== Landing Section ===== */
+  /* ↓↓ == Main == ↓↓ */
+  /* Top Container */
+  div.landing-page > section.container-top > article.container-top-heading {
+    margin-right: 15em;
+  }
+  /* Heading */
+  h1.purple {
+    font-size: 2.3em;
+    line-height: 1em;
+  }
+
+  /* Subheading */
+  div.landing-page > section.container-top > article.container-top-heading > h5 {
+    font-size: 1.3em;
+    padding-bottom: 0.8em;
+  }
+
+  /* Button */
+  div.landing-page > section.container-top > article.container-top-heading button.project-button {
+    width: 7.3em;
+    height: 1.8em;
+    font-size: 2em;
+  }
+  /* ↑↑ == Main == ↑↑ */
+
+  /* Image */
+  div.landing-page > section.container-top > img.container-top-image {
+    display: none;
+    max-width: 200px;
+    position: absolute;
+    right: 0;
+    top: 1em;
+    grid-area: img;
+  }
+
+  /* Container */
+  div.landing-page > section.container-top {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-areas:
+      "nav"
+      "main";
+    margin-bottom: 2.5em;
+  }
+
+
+  /* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */
+  div.landing-page > figure.process-icons {
+    margin-bottom: 5em;
+  }
+  /* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */
+
+
+  /* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */
+  /* Container */
+  div.landing-page > section.container-tech {
+    gap: 2em;
+    margin: 2.5em 0.5em 3em 0.5em;
+  }
+
+
+  /* ====== Team Section ===== */
+  div.landing-page > section.container-team {
+    gap: 2em;
+    margin-top: 2em;
+  }
+}
+
+/* Images of team members */
+div.landing-page section.container-team aside > img.profile-picture {
+  width: 100%;
+}
+
+/* Name */
+div.landing-page section.container-team aside > h2 {
+  font-size: 2.1em;
+  padding-top: 0.4em;
+  padding-bottom: 0.2em;
+}
+
+/* Title */
+div.landing-page section.container-team aside > h3 {
+  font-size: 1.4em;
+  margin-bottom: 1.3em;
+}
+
+/* Text */
+div.landing-page section.container-team aside.container-team-text {
+  width: 100%;
+  padding-bottom: 0.5em;
 }
 /* ↑↑↑↑↑ ===== End Media Queries ===== ↑↑↑↑↑ */
