@@ -1,12 +1,12 @@
 # Mandela Effect
 
-#The Challenge
+# The Challenge
 
 This project is our submission for Mintbean's Hiring Hackathon for Jr Web Devs. The theme prompt was "Paint App - Becoming Bob Ross". Computers have been a boon for creativity and imagination. Digital art has, for decades now, been a medium in its own right; and with the advent of NFTs, the future might be very bright indeed for digital artists.
 
 Our challenge was to build an app that lets people express their creativity in a visual format. We could build ANY application we'd like. Whether it was a blank canvas that you can paint on, a photo-editing app, a shared white board -- as long as it fulfilled one OR both of the following requirements: * As a user, I can drag my mouse across the screen to make free-form lines. * As a user, I can click areas of the screen with my mouse to fill them with a color, texture or pattern.
 
-#The Process
+# The Process
 
 Planned project, and planned our limited time wisely. Got a clear idea of what were were building. Set up standup meetings on Zoom. Implemented JIRA. Aim low, climb high minimum viable product. UX created a LoFi Wireframe. Engineers used Create React App and updated README. MidFi wireframe and created canvas color palette. General app structure. HiFi Wireframe and gather SVSs. Nav bars. Adjusted app structure. Basic styling. Began working on the landing page by adding images and meta data.
 
