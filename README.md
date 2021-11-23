@@ -39,4 +39,4 @@ Approach each project as a street artist and developer by communicating graphica
 
 [__Figma__](https://www.figma.com/file/4f3Shhq1Sgypp3CqLYvY13/Drawing-App)
 
-[__Heroku__](https://www.figma.com/file/4f3Shhq1Sgypp3CqLYvY13/Drawing-App)
+[__Heroku__](https://mandala-effect.herokuapp.com/)
