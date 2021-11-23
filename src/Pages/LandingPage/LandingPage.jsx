@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LandingNav from '../../Components/NavBars/LandingNav/LandingNav';
 import './LandingPage.css';
 
 function LandingPage() {
+
+
   return (
     <>
       {/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */}
@@ -14,9 +17,11 @@ function LandingPage() {
           <article className="container-top-heading">
             <h1 className="purple">Unwind With Color</h1>
             <h5>A Digital Drawing Experience</h5>
-            <button className="project-button">
-              Go To Project
-            </button>
+            <Link to={'/color'}>
+              <button className="project-button">
+                Go To Project
+              </button>
+            </Link>
           </article>
           <img className="container-top-image" src="/img/rainbow-splash-image.svg" alt="rainbow splash"/>
         </section>

@@ -114,7 +114,7 @@ div.landing-page > section.container-top > article.container-top-heading > h5 {
 }
 
 /* button */
-div.landing-page > section.container-top > article.container-top-heading > button.project-button {
+div.landing-page > section.container-top > article.container-top-heading button.project-button {
   width: 7.7em;
   height: 2.2em;
   display: inline-block;
@@ -128,7 +128,7 @@ div.landing-page > section.container-top > article.container-top-heading > butto
   transition-duration: 0.4s;
 }
 
-div.landing-page > section.container-top > article.container-top-heading > button.project-button:hover {
+div.landing-page > section.container-top > article.container-top-heading button.project-button:hover {
   border: 2px solid var(--blue);
   background-color: var(--white);
   color: var(--blue);
@@ -262,7 +262,7 @@ div.landing-page > h3.red {
 /* ↓↓↓↓↓ ===== Media Queries ===== ↓↓↓↓↓ */
 /* Button */
 @media all and (max-width:30em) {
-  div.landing-page > section.container-top > article.container-top-heading > button.project-button {
+  div.landing-page > section.container-top > article.container-top-heading button.project-button {
     display:block;
     margin: 0.4em auto;
   }
