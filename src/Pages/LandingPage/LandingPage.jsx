@@ -49,8 +49,12 @@ function LandingPage() {
         </p>
 
         <figure className="process-icons">
-          <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
-          <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
+          <a href="https://github.com/mandala-effect/mandala-effect-app.git">
+            <img className="l-page-icons" src="/img/github-logo.svg" alt="GitHub"/>
+          </a>
+          <a href="https://codesandbox.io/">
+            <img className="l-page-icons" src="/img/code-sandbox-logo.svg" alt="CodeSandbox"/>
+          </a>
           <a href="https://www.figma.com/file/4f3Shhq1Sgypp3CqLYvY13/Drawing-App">
             <img className="l-page-icons" src="/img/figma-icon.png" alt="Figma"/>
           </a>
