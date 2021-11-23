@@ -92,28 +92,28 @@ div.landing-page > section.container-top > nav.container-top-nav {
 }
 
 /* ↓↓ == Main == ↓↓ */
+/* Container */
 div.landing-page > section.container-top > article.container-top-heading {
-  /* background-color: rgba(100, 100, 200, 0.5); */
   grid-area: main;
   text-align: center;
   z-index: 2;
 }
 
-/* Text */
+/* Heading */
 h1.purple {
   color: var(--purple);
   font-size: 3.3em;
   line-height: 0.8em;
 }
 
+/* Subheading */
 div.landing-page > section.container-top > article.container-top-heading > h5 {
   font-family: 'Urbanist', sans-serif;
   font-size: 1.9em;
   padding-bottom: 0.8em;
-
 }
 
-/* button */
+/* Button */
 div.landing-page > section.container-top > article.container-top-heading button.project-button {
   width: 7.7em;
   height: 2.2em;
@@ -265,6 +265,48 @@ div.landing-page > h3.red {
   div.landing-page > section.container-top > article.container-top-heading button.project-button {
     display:block;
     margin: 0.4em auto;
+  }
+}
+
+/* ===== MEDIA QUERY ===== */
+@media screen and (max-width: 1072px) {
+  /* Landing Section */
+  /* ↓↓ == Main == ↓↓ */
+  /* Heading */
+  h1.purple {
+    font-size: 1.8em;
+    line-height: 0.6em;
+  }
+
+  /* Subheading */
+  div.landing-page > section.container-top > article.container-top-heading > h5 {
+    font-size: 0.9em;
+    padding-bottom: 0.8em;
+  }
+
+  /* Button */
+  div.landing-page > section.container-top > article.container-top-heading button.project-button {
+    width: 8em;
+    height: 2.2em;
+    font-size: 0.9em;
+  }
+  /* ↑↑ == Main == ↑↑ */
+
+  /* Container */
+  div.landing-page > section.container-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.6fr 1fr 200px;
+    grid-template-areas:
+      "nav nav"
+      "top img"
+      "main img"
+      "footer img";
+  }
+
+  /* Team Section*/
+  div.landing-page > section.container-team {
+    gap: 5em;
   }
 }
 /* ↑↑↑↑↑ ===== End Media Queries ===== ↑↑↑↑↑ */
