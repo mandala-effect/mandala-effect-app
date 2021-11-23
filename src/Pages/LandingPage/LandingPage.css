@@ -1,6 +1,7 @@
+/* ↓↓↓↓↓ ===== CSS Custom Properties ===== ↓↓↓↓↓ */
 :root {
   --blue: #4383FF;
-  --purple: #9A27D2;
+  --purple: rgba(143, 40, 200, 1);
   --green: #10C03B;
   --orange: #FFA101;
   --red: #FF0401;
@@ -10,6 +11,12 @@
   --nav-link-hover: #555;
   --shadow: rgba(0, 0, 0, 0.25);
 }
+/* ↑↑↑↑↑ ===== End CSS Custom Properties ===== ↑↑↑↑↑ */
+
+
+/* ↓↓↓↓↓ ===== Genearl Styles ===== ↓↓↓↓↓ */
+/* CSS rules to specify families
+font-family: 'Rubik', sans-serif; */
 
 * {
     box-sizing: border-box;
@@ -17,15 +24,35 @@
     padding: 0;
 }
 
-/* CSS rules to specify families
-font-family: 'Catamaran', sans-serif; */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     line-height: 1.3;
-    /* font-family: 'Rubik', sans-serif; */
+}
+
+h1.purple {
+  color: var(--purple);
+}
+
+h3.purple {
+  color: var(--purple);
+}
+
+h3.blue {
+  color: var(--blue);
+}
+
+h3.green {
+  color: var(--green);
+}
+
+h3.orange {
+  color: var(--orange);
+}
+
+h3.red {
+  color: var(--red);
 }
 
 a {
-    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -37,29 +64,63 @@ img {
     width: 100%;
 }
 
+/* Icons */
 img.l-page-icons {
-  width: 82px;
-}
-
-img.profile-picture {
-  width: 222px;
+  width: 50px;
+  margin: 0 0.5em;
 }
 /* ↑↑↑↑↑ ===== End general styles. ===== ↑↑↑↑↑ */
 
+
+/* ↓↓↓↓↓ ===== Main Container Section ===== ↓↓↓↓↓ */
 .landing-page {
   max-width: 1100px;
   margin: auto;
-  /* overflow: hidden; */
-  padding: 0 2rem;
+  font-family: 'Rubik', sans-serif;
+  padding: 0 4rem;
+  /* For Smooth @media */
+  transition: left 0.5s;
+}
+/* ↑↑↑↑↑ ===== End Main Container Section ===== ↑↑↑↑↑ */
+
+
+/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓ */
+/* Nav */
+div.landing-page > section.container-top > nav.container-top-nav {
+  grid-area: nav;
+  z-index: 2;
 }
 
-/* ↓↓↓↓↓ ===== Landing Section ===== ↓↓↓↓↓*/
-/* button */
-div.landing-page > button.project-button {
+/* ↓↓ == Main == ↓↓ */
+/* Container */
+div.landing-page > section.container-top > article.container-top-heading {
+  grid-area: main;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Heading */
+h1.purple {
+  color: var(--purple);
+  font-size: 3.3em;
+  line-height: 0.8em;
+}
+
+/* Subheading */
+div.landing-page > section.container-top > article.container-top-heading > h5 {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.9em;
+  padding-bottom: 0.8em;
+}
+
+/* Button */
+div.landing-page > section.container-top > article.container-top-heading button.project-button {
+  width: 7.7em;
+  height: 2.2em;
   display: inline-block;
-  padding: 0.4em 2.5em;
-  margin: 0.7em auto;
+  font-family: 'Urbanist', sans-serif;
   border: none;
+  font-size: 1.5em;
   border-radius: 500px;
   background-color: var(--blue);
   color: var(--white);
@@ -67,18 +128,34 @@ div.landing-page > button.project-button {
   transition-duration: 0.4s;
 }
 
-div.landing-page > button.project-button:hover {
+div.landing-page > section.container-top > article.container-top-heading button.project-button:hover {
   border: 2px solid var(--blue);
   background-color: var(--white);
   color: var(--blue);
   box-shadow: none;
 }
+/* ↑↑ == Main == ↑↑ */
 
-@media all and (max-width:30em) {
-  div.landing-page > button.project-button {
-    display:block;
-    margin: 0.4em auto;
-  }
+/* Image */
+div.landing-page > section.container-top > img.container-top-image {
+  width: 70vw;
+  max-width: 800px;
+  position: absolute;
+  right: 0;
+  top: 1em;
+  grid-area: img;
+}
+
+/* Container */
+div.landing-page > section.container-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.8fr 1fr 420px;
+  grid-template-areas:
+    "nav nav"
+    "top img"
+    "main img"
+    "footer img";
 }
 /* ↑↑↑↑↑ ===== End Landing Section ===== ↑↑↑↑↑ */
 
@@ -86,13 +163,251 @@ div.landing-page > button.project-button:hover {
 /* ↑↑↑↑↑ ===== End Challenge Section ===== ↑↑↑↑↑ */
 
 /* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */
+div.landing-page > figure.process-icons {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 /* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */
 
 /* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */
+/* Container */
+div.landing-page > section.container-tech {
+  /* background-color: rgba(200, 100, 100, 0.5); */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 8em;
+  margin: 2.5em 0.5em;
+}
+
+/* Text - Front End */
+div.landing-page > section.container-tech > figure.container-tech-front > h5 {
+  text-align: center;
+  margin-top: 0.75em;
+}
+
+/* Text - Styling */
+div.landing-page > section.container-tech > figure.container-tech-styling > h5 {
+  text-align: center;
+  margin-top: 0.75em;
+}
 /* ↑↑↑↑↑ ===== End Tech Section ===== ↑↑↑↑↑ */
 
+
 /* ↓↓↓↓↓ ===== Team Section ===== ↓↓↓↓↓ */
+/* Container */
+div.landing-page > section.container-team {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 8em;
+  margin: 2.5em 0.5em;
+}
+
+/* Images of team members */
+div.landing-page section.container-team aside > img.profile-picture {
+  width: 222px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Name */
+div.landing-page section.container-team aside > h2 {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1em;
+  padding-top: 0.5em;
+}
+
+/* Title */
+div.landing-page section.container-team aside > h3 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+/* Text */
+div.landing-page section.container-team aside.container-team-text {
+  width: 14em;
+  padding-bottom: 0.5em;
+}
+
+/* Icons Container */
+div.landing-page section.container-team aside figure.container-team-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.75em;
+}
+
+/* Kat's icons - aligned on bottom */
+div.landing-page section.container-team aside.kat figure.container-team-icons {
+  margin-top: 2.5em;
+  padding: 0;
+}
 /* ↑↑↑↑↑ ===== End Team Section ===== ↑↑↑↑↑ */
 
+
+
 /* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */
+
 /* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */
+div.landing-page > h3.red {
+  margin-top: 2.5em;
+}
+
+
+/* ↓↓↓↓↓ ===== Media Queries ===== ↓↓↓↓↓ */
+/* Button */
+@media all and (max-width:30em) {
+  div.landing-page > section.container-top > article.container-top-heading button.project-button {
+    display:block;
+    margin: 0.4em auto;
+  }
+}
+
+/* ===== MEDIA QUERY ===== */
+@media screen and (max-width: 1072px) {
+  /* Landing Section */
+  /* ↓↓ == Main == ↓↓ */
+  /* Heading */
+  h1.purple {
+    font-size: 1.8em;
+    line-height: 0.6em;
+  }
+
+  /* Subheading */
+  div.landing-page > section.container-top > article.container-top-heading > h5 {
+    font-size: 0.9em;
+    padding-bottom: 0.8em;
+  }
+
+  /* Button */
+  div.landing-page > section.container-top > article.container-top-heading button.project-button {
+    width: 8em;
+    height: 2.2em;
+    font-size: 0.9em;
+  }
+  /* ↑↑ == Main == ↑↑ */
+
+  /* Container */
+  div.landing-page > section.container-top {
+    grid-template-rows: 1fr 1.2fr 1fr 270px;
+  }
+
+  /* Team Section*/
+  div.landing-page > section.container-team {
+    gap: 5em;
+  }
+}
+
+
+/* ========== MEDIA QUERY iPhone 6/7/8 Plus ========== */
+@media screen and (max-width: 414px) {
+  /* ↓↓↓↓↓ ===== Genearl Styles ===== ↓↓↓↓↓ */
+  h1, h2, h3, h4, h5 {
+      text-align: center;
+  }
+
+  /* ===== Main Container ===== */
+  .landing-page {
+    padding: 0 2rem;
+  }
+
+
+  /* ===== Landing Section ===== */
+  /* ↓↓ == Main == ↓↓ */
+  /* Top Container */
+  div.landing-page > section.container-top > article.container-top-heading {
+    margin-right: 15em;
+  }
+
+  /* Heading */
+  h1.purple {
+    font-size: 2.3em;
+    line-height: 1em;
+  }
+
+  /* Subheading */
+  div.landing-page > section.container-top > article.container-top-heading > h5 {
+    font-size: 1.3em;
+    padding-bottom: 0.8em;
+  }
+
+  /* Button */
+  div.landing-page > section.container-top > article.container-top-heading button.project-button {
+    width: 7.3em;
+    height: 1.8em;
+    font-size: 2em;
+  }
+  /* ↑↑ == Main == ↑↑ */
+
+  /* Image */
+  div.landing-page > section.container-top > img.container-top-image {
+    display: none;
+    max-width: 200px;
+    position: absolute;
+    right: 0;
+    top: 1em;
+    grid-area: img;
+  }
+
+  /* Container */
+  div.landing-page > section.container-top {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-areas:
+      "nav"
+      "main";
+    margin-bottom: 2.5em;
+  }
+
+
+  /* ↓↓↓↓↓ ===== Process Section ===== ↓↓↓↓↓ */
+  div.landing-page > figure.process-icons {
+    margin-bottom: 5em;
+  }
+  /* ↑↑↑↑↑ ===== End Process Section ===== ↑↑↑↑↑ */
+
+
+  /* ↓↓↓↓↓ ===== Tech Section ===== ↓↓↓↓↓ */
+  /* Container */
+  div.landing-page > section.container-tech {
+    gap: 2em;
+    margin: 2.5em 0.5em 3em 0.5em;
+  }
+
+
+  /* ====== Team Section ===== */
+  div.landing-page > section.container-team {
+    gap: 2em;
+    margin-top: 2em;
+  }
+
+  /* Images of team members */
+    div.landing-page section.container-team aside > img.profile-picture {
+      width: 100%;
+  }
+
+  /* Name */
+  div.landing-page section.container-team aside > h2 {
+    font-size: 2.1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
+  }
+
+  /* Title */
+  div.landing-page section.container-team aside > h3 {
+    font-size: 1.4em;
+    margin-bottom: 1.3em;
+  }
+
+  /* Text */
+  div.landing-page section.container-team aside.container-team-text {
+    width: 100%;
+    padding-bottom: 0.5em;
+  }
+}
+/* ↑↑↑↑↑ ===== End Media Queries ===== ↑↑↑↑↑ */

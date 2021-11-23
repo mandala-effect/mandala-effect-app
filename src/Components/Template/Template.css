@@ -1,0 +1,11 @@
+.Template {
+    width: 600px;
+    height: 600px;
+    /* background-color: purple; */
+}
+
+.template-svg {
+    width: 350px;
+    position: relative;
+    left: 160px;
+}

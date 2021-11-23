@@ -8,6 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Footer />
       <Switch>
         <Route exact path="/">
           <LandingPage />
@@ -17,7 +18,6 @@ function App() {
         </Route>
         <Redirect to="/" />
       </Switch>
-      <Footer />
     </div>
   );
 }
