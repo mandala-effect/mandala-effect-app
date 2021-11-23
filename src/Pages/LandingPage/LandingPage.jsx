@@ -67,14 +67,22 @@ function LandingPage() {
 
         <section className="container-tech">
           <figure className="container-tech-front">
-            <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
-            <img className="l-page-icons" src="/img/bootstrap-icon.svg" alt="Bootstrap"/>
+            <a href="https://reactjs.org/">
+              <img className="l-page-icons" src="/img/reactjs-icon.svg" alt="React"/>
+            </a>
+            <a href="https://getbootstrap.com/">
+              <img className="l-page-icons" src="/img/bootstrap-icon.svg" alt="Bootstrap"/>
+            </a>
             <h5>Front End</h5>
           </figure>
 
           <figure className="container-tech-styling">
-            <img className="l-page-icons" src="/img/css-icon.svg" alt="CSS"/>
-            <img className="l-page-icons" src="/img/material-ui-logo.svg" alt="MUI"/>
+            <a href="https://www.w3.org/Style/CSS/">
+              <img className="l-page-icons" src="/img/css-icon.svg" alt="CSS"/>
+            </a>
+            <a href="https://mui.com/">
+              <img className="l-page-icons" src="/img/material-ui-logo.svg" alt="MUI"/>
+            </a>
             <h5>Styling</h5>
           </figure>
         </section>
