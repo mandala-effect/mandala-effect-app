@@ -1,13 +1,13 @@
 /* ↓↓↓↓↓ ===== CSS Custom Properties ===== ↓↓↓↓↓ */
 :root {
   --blue: #4383FF;
-  --purple: rgba(143, 40, 200, 1);
+  --purple: rgba(167, 47, 242, 0.966) !important;
   --green: #10C03B;
   --orange: #FFA101;
   --red: #FF0401;
   --black: rgba(0, 0, 0, 0.6);
   --white: rgba(255,255,255, 0.9);
-  --footer-violet: #4B35B0;
+  --footer-violet: rgba(107, 35, 159, 0.982);
   --nav-link-hover: #555;
   --shadow: rgba(0, 0, 0, 0.25);
 }

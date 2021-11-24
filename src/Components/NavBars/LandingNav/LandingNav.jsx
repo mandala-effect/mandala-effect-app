@@ -1,32 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import Logo from '../MandalaLogo/Logo.png';
 import './LandingNav.css';
 
-export default function LandingNav() {
-	const [darkMode, setDarkMode] = useState(false);
-	const [emoji, setEmoji] = useState(true);
+export default function LandingNav({darkMode, setDarkMode, emoji, setEmoji}) {
 
-	useEffect(() => {
-		const json = localStorage.getItem("site-dark-mode");
-		const currentMode = JSON.parse(json);
-		if (currentMode) {
-			setDarkMode(true);
-		} else {
-			setDarkMode(false);
-		}
-	}, []);
-
-	useEffect(() => {
-		if (darkMode) {
-			document.body.classList.add("dark");
-		} else {
-			document.body.classList.remove("dark");
-		}
-		const json = JSON.stringify(darkMode);
-		localStorage.setItem("site-dark-mode", json);
-	}, [darkMode]);
 
 return (
 		<Navbar bg="transparent" variant="transparent">
@@ -42,7 +21,7 @@ return (
 					<Nav.Link>
 						<button className="dark-btn" 
 						onClick={() => {setEmoji(!emoji); setDarkMode(!darkMode)}}>
-								{ emoji ? "🌙  " : " ☀️  " }	
+								{ emoji ? "☀️  " : " 🌙   " }	
 						</button>
 							{emoji}
 					</Nav.Link>
