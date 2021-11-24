@@ -5,6 +5,7 @@ import './Footer.css';
 
 export default function Footer() {
     return (
+    <div className="footer-div">
       <MDBFooter backgroundColor='light' className='text-center text-lg-left'>
       <div className='text-center p-3 footer-div' >
         {/* <h5 className="footer-title">Mandala Effect</h5> */}
@@ -19,9 +20,9 @@ export default function Footer() {
         <a className='footer-link' href='https://github.com/mandala-effect/mandala-effect-app/'>
         <img src="/img/code-sandbox-white-logo.png" alt="codesandbox-code"className="footer-logo" />
         </a>
-   
       </div>
     </MDBFooter>
+    </div>
     )
 }
 

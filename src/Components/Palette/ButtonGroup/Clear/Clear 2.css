@@ -1,0 +1,14 @@
+.clear-btn {
+    width: 110px;
+    height: 38px;
+    border: none;
+    font-size: 15px;
+    font-family: 'system-ui';
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #6451BB;
+}
+
+.clear-btn:hover {
+    background-color: #7a68c9;
+}

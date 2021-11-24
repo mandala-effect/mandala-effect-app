@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import LandingNav from '../../Components/NavBars/LandingNav/LandingNav';
 import './LandingPage.css';
 
-function LandingPage() {
-
+function LandingPage({ darkMode, setDarkMode, emoji, setEmoji }) {
 
   return (
     <>
@@ -12,7 +11,8 @@ function LandingPage() {
       <div className="landing-page">
         <section className="container-top">
           <nav className="container-top-nav">
-          <LandingNav />
+          <LandingNav darkMode={darkMode} setDarkMode={setDarkMode}
+          emoji={emoji}  setEmoji={setEmoji} />
           </nav>
           <article className="container-top-heading">
             <h1 className="purple">Unwind With Color</h1>

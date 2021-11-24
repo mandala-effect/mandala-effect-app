@@ -11,13 +11,13 @@
 }
 
 .PaintBox {
-    padding-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px !important;
 }
 
 @media screen and (max-width: 500px) {
   .paint-container {
       max-width: 300px;
       margin: 0 auto;
-      padding: 0;
   }
 }
