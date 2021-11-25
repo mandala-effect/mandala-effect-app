@@ -252,11 +252,14 @@ div.landing-page section.container-team aside.kat figure.container-team-icons {
 
 
 /* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */
-
-/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */
 div.landing-page > h3.red {
   margin-top: 2.5em;
 }
+
+p.result-text {
+  margin: 1em 0 3em 0;
+}
+/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */
 
 
 /* ↓↓↓↓↓ ===== Media Queries ===== ↓↓↓↓↓ */
@@ -268,7 +271,7 @@ div.landing-page > h3.red {
   }
 }
 
-/* ===== MEDIA QUERY ===== */
+/* ===== Media Query @ 1072 ===== */
 @media screen and (max-width: 1072px) {
   /* Landing Section */
   /* ↓↓ == Main == ↓↓ */

@@ -167,6 +167,9 @@ function LandingPage({ darkMode, setDarkMode, emoji, setEmoji }) {
 
         {/* ↓↓↓↓↓ ===== Result Section ===== ↓↓↓↓↓ */}
         <h3 className="red">The Result</h3>
+        <p className="result-text">
+          Madala Effect is a digital drawing app that allows the users to select a Mandala design, choose a color and fill in the desired area. The user is also able to select between the brush and the bucket tool to fill in the design as well as erase where desired. The user is able to then save their final design to their desktop.
+        </p>
         {/* ↑↑↑↑↑ ===== End Result Section ===== ↑↑↑↑↑ */}
       </div>
       {/* ===== Footer goes here. ===== */}
